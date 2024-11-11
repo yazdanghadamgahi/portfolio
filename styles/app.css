@@ -1,0 +1,94 @@
+:root{
+    --font : rgba(192,192,192,1);
+    --radius : rgba(40,40,40,1);
+    --background-black : rgba(0,0,0,1);
+    --box_black : rgba(26,26,26,1);
+    --orange : rgba(243,80,52,1);
+}
+/*--widgets--*/
+.menu_item{
+    color: var(--font);
+    font-family: "inter-Regular";
+    font-size: 22px;
+}
+.box{
+    border: 0.125rem solid var(--radius);
+    border-radius: 100px;
+    padding: 1rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+}
+/*--main--*/
+body{
+    background-color: var(--background-black);
+}
+header{
+    
+}
+/*--main-header--*/
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 2rem;
+    
+}
+.nav-img{
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 80rem;
+    
+}
+.abut{
+    color: var(--orange);
+}
+.content-body{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+}
+.body-top{
+    width: 100%;
+}
+.body-top_wrapper{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 1.5rem;
+    
+}
+.body-ui_ux{
+    font-size: large;
+}
+.avalable-job{
+    border: 0.125rem solid var(--radius);
+    border-radius: 20px;
+    padding: 0.1rem;
+    /**/
+    font-size: smaller;
+    font-family: "inter-Regular";
+    color: var(--font);
+    background-color: var(--background-black);
+    display: flex;
+
+}
+.avalable-dot{
+    color: var(--orange);
+}
+/*body main*/
+.top-main_wrapper{
+    margin-top: 2rem;
+}
+.top-main_wrapper-left{
+
+}
+.top-main_wrapper_right{
+}
