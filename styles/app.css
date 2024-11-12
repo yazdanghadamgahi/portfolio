@@ -152,3 +152,70 @@ header{
     border: 1px solid var(--radius);
     border-radius: 0px 10px 10px 0px;
 }
+/*body btm*/
+.body-btm{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+}
+.body-btm-wrapper{
+    margin-top: .1rem;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 100%;
+    gap: 1px;
+    
+}
+.body-btm_left{
+
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+    width: 100%;
+    
+}
+.body-btm_right{
+
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+    width: 100%;
+}
+.recent-worke{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 2rem;
+
+}
+.recent-worke_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.recent-worke-left{
+
+}
+.Product-designer{
+    font-size: large;
+    font-weight: bold;
+    color: var(--orange);
+}
+.title-job{
+    font-size: large;
+    font-weight: bold;
+    color: var(--white);
+}
+.Product-designer_time{
+    font-size: small;
+}
+.recent-worke-right{
+
+}
