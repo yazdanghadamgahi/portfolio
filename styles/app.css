@@ -1,9 +1,10 @@
 :root{
     --font : rgba(192,192,192,1);
+    --white : rgba(255,255,255,1);
     --radius : rgba(40,40,40,1);
     --background-black : rgba(0,0,0,1);
     --box_black : rgba(26,26,26,1);
-    --orange : rgba(243,80,52,1);
+    --orange : rgb(248, 57, 28);
 }
 /*--widgets--*/
 .menu_item{
@@ -18,6 +19,20 @@
     background-color: var(--box_black);
     color: var(--font);
     font-family: "inter-Regular";
+}
+.box-main{
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 0rem 3rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+}
+.margin-btm{
+    margin-bottom: 2rem;
+}
+.margin-top-1rem{
+    margin-top: 1rem;
 }
 /*--main--*/
 body{
@@ -85,10 +100,55 @@ header{
 }
 /*body main*/
 .top-main_wrapper{
-    margin-top: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .top-main_wrapper-left{
 
 }
 .top-main_wrapper_right{
+    margin-bottom: 3rem;
+}
+.im-yazdan{
+    font-family: "inter-Bold";
+    color: var(--white);
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+/*btns*/
+.Hire-me{
+    font-family: "inter-Regular";
+    background-color: var(--orange);
+    color: var(--white);
+    width: 2rem;
+    margin-right: 0.1rem;
+    padding: 0.3rem;
+    border: 0.5px solid var(--background-black);
+    border-radius: 10px 0px 0px 10px;
+}
+.pls{
+    background-color: var(--orange);
+    color: var(--white);
+    width: 2rem;
+    padding: 0.3rem;
+    border: 0px solid var(--background-black);
+    border-radius: 0px 10px 10px 0px;
+}
+.Copy-email{
+    font-family: "inter-Regular";
+    background-color: var(--background-black);
+    width: 2rem;
+    margin-right: 0.1rem;
+    padding: 0.3rem;
+    border: 0.5px solid var(--radius);
+    border-radius: 10px 0px 0px 10px;
+}
+.🗍{
+    background-color: var(--background-black);
+    width: 2rem;
+    padding: 0.3rem;
+    border: 1px solid var(--radius);
+    border-radius: 0px 10px 10px 0px;
 }
