@@ -51,7 +51,7 @@ header{
     
 }
 .nav-img{
-    
+
 }
 
 .menu{
@@ -155,7 +155,7 @@ header{
 /*body btm*/
 .body-btm{
     display: flex;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
     margin-left: 6.5rem;
     margin-right: 6.5rem;
 }
@@ -165,7 +165,7 @@ header{
     flex-direction: row;
     align-items:center;
     width: 100%;
-    gap: 1px;
+    gap: .5rem;
     
 }
 .body-btm_left{
@@ -180,13 +180,6 @@ header{
     
 }
 .body-btm_right{
-
-    border: 0.125rem solid var(--radius);
-    border-radius: 10px;
-    padding: 1rem 1.5rem;
-    background-color: var(--box_black);
-    color: var(--font);
-    font-family: "inter-Regular";
     width: 100%;
 }
 .recent-worke{
@@ -200,22 +193,80 @@ header{
     justify-content: space-between;
     margin-bottom: 1.5rem;
 }
-.recent-worke-left{
 
-}
 .Product-designer{
     font-size: large;
     font-weight: bold;
     color: var(--orange);
+    margin-bottom: 0.1rem;
 }
 .title-job{
     font-size: large;
     font-weight: bold;
     color: var(--white);
+    margin-bottom: 0.1rem;
 }
 .Product-designer_time{
     font-size: small;
 }
 .recent-worke-right{
 
+}
+.Product-design{
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+    font-weight: bold ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 3rem;
+}
+.Product-design_txt{
+    align-self: center;
+}
+.user-develop{
+    margin-top: 1rem;
+    display:flex ;
+    justify-content: center;
+    width: 100%;
+    gap: .5rem;
+}
+.user-exprience{
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+    font-weight: bold ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 3rem;
+    width: 100%;
+
+}
+.nocode-develop{
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--box_black);
+    color: var(--font);
+    font-family: "inter-Regular";
+    font-weight: bold ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 3rem;
+    width: 100%;
 }
