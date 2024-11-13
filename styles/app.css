@@ -38,9 +38,6 @@
 body{
     background-color: var(--background-black);
 }
-header{
-    
-}
 /*--main-header--*/
 .nav-wrapper{
     display: flex;
@@ -49,9 +46,6 @@ header{
     gap: .5rem;
     margin-top: 2rem;
     
-}
-.nav-img{
-
 }
 
 .menu{
@@ -105,9 +99,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.top-main_wrapper-left{
 
-}
 .top-main_wrapper_right{
     margin-bottom: 3rem;
 }
@@ -165,7 +157,7 @@ header{
     flex-direction: row;
     align-items:center;
     width: 100%;
-    gap: .5rem;
+    margin-right: .1rem;
     
 }
 .body-btm_left{
@@ -181,24 +173,26 @@ header{
 }
 .body-btm_right{
     width: 100%;
+    margin-left: .1rem;
 }
 .recent-worke{
     font-weight: bold;
     font-size: large;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
 
 }
 .recent-worke_wrapper{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .Product-designer{
     font-size: large;
     font-weight: bold;
     color: var(--orange);
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.4rem;
 }
 .title-job{
     font-size: large;
@@ -208,9 +202,6 @@ header{
 }
 .Product-designer_time{
     font-size: small;
-}
-.recent-worke-right{
-
 }
 .Product-design{
     border: 0.125rem solid var(--radius);
@@ -248,7 +239,6 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    justify-content: center;
     align-items: center;
     align-self: center;
     text-align: center;
@@ -267,11 +257,46 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    justify-content: center;
     align-items: center;
     align-self: center;
     text-align: center;
     height: 3rem;
     width: 100%;
 
+}
+/*ai music*/
+.ai-music{
+    margin-top: 1rem;
+    border: 0.125rem solid var(--radius);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--box_black);
+}
+.ai-music_text-wrappr{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ai-music_text-wrappr_text{
+
+}
+.ai-music_text-wrappr_text_h1{
+    font-weight: bold;
+    color: var(--white);
+    font-family: "inter-Regular";
+    font-size: x-large;
+    margin-bottom: .5rem;
+}
+.ai-music_text-wrappr_text_p{
+    color: var(--font);
+}
+.ai-music_text-wrappr_icon{
+    
+}
+.ai-music_image{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
