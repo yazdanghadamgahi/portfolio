@@ -249,6 +249,8 @@ header{
     display: flex;
     justify-content: center;
     justify-content: center;
+    align-items: center;
+    align-self: center;
     text-align: center;
     height: 3rem;
     width: 100%;
@@ -266,7 +268,10 @@ header{
     display: flex;
     justify-content: center;
     justify-content: center;
+    align-items: center;
+    align-self: center;
     text-align: center;
     height: 3rem;
     width: 100%;
+
 }
